@@ -23,6 +23,7 @@ body{
     left: 0;
     overflow: hidden;
     z-index: -100;
+    background-attachment: fixed;
 }
 
 /* .fullscreen-bg__video {
@@ -84,12 +85,30 @@ nav ul li{
 }
 
 .landing{
-    width: 200px;
+    width: 100%;
+    height: 100%;
     display: flex;
-    padding-left: 20px;
-    border-left: 10px solid #000;
+    justify-content: center;
 }
 
 .landing h1{
+    padding-left: 20px;
+    border-left: 10px solid #000;
     color: #fff;
+    word-spacing: 5px;
+    line-height: 40px;
+}
+
+.intro{
+    width: 200px;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+
+.content{
+    margin-top: 90vh;
+    position: relative;
+    height: 500px;
+    background: #fff;
 }
