@@ -1,0 +1,95 @@
+body{
+    Font-Family: 'Arvo', Serif;
+}
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    background: #00F260;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, rgba(5, 117, 230, 0.5), rgba(0, 242, 96, 0.5));  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgba(5, 117, 230, 0.5), rgba(0, 242, 96, 0.5)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    z-index: -99;
+  }
+
+.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+/* .fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+} */
+
+.intro{
+    color: #fff;
+    font-weight: bolder;
+}
+
+header{
+    height: 50px;
+    padding: 20px 40px;
+    /* background: #000; */
+    display: flex;
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+
+header a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.logo{
+    border: 3px solid #fff;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    display: inline-block;
+}
+
+.logo-text{
+    font-weight: bolder;
+    font-size: 16px;
+    color: #fff;
+    line-height: 40px;
+}
+
+nav{
+    width: 100%;
+}
+
+nav ul{
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li{
+    color: #fff;
+    padding-left: 30px;
+}
+
+.landing{
+    width: 200px;
+    display: flex;
+    padding-left: 20px;
+    border-left: 10px solid #000;
+}
+
+.landing h1{
+    color: #fff;
+}
