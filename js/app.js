@@ -112,4 +112,9 @@ const jsonUri = "data:text/plain;base64,"+window.btoa(JSON.stringify(partJson));
 /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
 particlesJS.load('particles-js', jsonUri, function() {
     console.log('callback - particles.js config loaded');
-  });
+});
+
+document.querySelector('.arrow').addEventListener('click', function(e){
+  e.preventDefault();
+  document.querySelector('.content').scrollIntoView({behavior: 'smooth'});
+});
